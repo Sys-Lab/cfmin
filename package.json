@@ -1,8 +1,8 @@
 {
   "name": "cfmin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common Font Minification Tool",
- "os" : [ "win32" ],"preferGlobal": "true", "keywords": [
+ "os" : [ "win32" ], "keywords": [
     "font",
     "minify",
     "compress",
