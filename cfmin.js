@@ -1,5 +1,3 @@
-
-
 ///////////////////////////svgmin node/////////////////////
 
 function min_svg(data1,data2,name){
@@ -85,7 +83,8 @@ var argv = require('optimist')
 ;
 if((!argv.f&&!argv.m)||argv.help){
 	console.log("\nSYSLIB Common Font Minification Tool.\t\t\t\tBuild 2013101701.\n");
-	console.log("Usage: node cfmin.js "+clc.greenBright("[opitions]")+" "+clc.greenBright("-f [file]")+" "+clc.yellowBright("[-n [name]]")+" "+clc.magentaBright("-m [map]")+"\n");
+	console.log("\nMaps are on https://github.com/Sys-Lab/cfmin/tree/master/map .\n");
+	console.log("Usage: cfmin "+clc.greenBright("[opitions]")+" "+clc.greenBright("-f [file]")+" "+clc.yellowBright("[-n [name]]")+" "+clc.magentaBright("-m [map]")+"\n");
 	console.log("");
 	console.log("");
 	console.log("\t--no_zip\t\t\tdo not pack");

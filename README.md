@@ -9,9 +9,15 @@ I'm working on the dependencies' compile script.
 
 just head to test dir and have fun.
 
+#Install
+
+       npm install -g cfmin
+
 #Useage
 
-node cfmin.js [opitions] -f [file] [-n [name]] -m [map]
+       cfmin [opitions] -f [file] [-n [name]] -m [map]
+
+opitions
 
         --no_zip                        do not pack
         --no_css                        do not gen css
