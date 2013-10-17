@@ -1,5 +1,5 @@
 # SYSLIB Common Font Minification Tool.
-Build 2013101701.
+Build 2013101703.
 
 This is a tool to compress font and gen webfont.
 It can convert TTF/OTF/SVG/WOFF/EOT.... to TTF/SVG/WOFF/EOT and gen webfont css,then pack with zip.
@@ -11,11 +11,11 @@ just head to test dir and have fun.
 
 #Install
 
-       npm install -g cfmin
+       npm install cfmin [ no -g please]
 
 #Useage
 
-       cfmin [opitions] -f [file] [-n [name]] -m [map]
+       node cfmin.js [opitions] -f [file] [-n [name]] -m [map]
 
 opitions
 

@@ -27,12 +27,5 @@
     "cli-color": "0.2.2",
     "optimist": "0.6.0"
   },
-  "licence": "MIT",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "MIT"
+  "licence": "MIT"
 }
