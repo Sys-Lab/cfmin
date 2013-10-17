@@ -1,0 +1,37 @@
+{
+  "name": "cfmin",
+  "version": "0.0.1",
+  "description": "Common Font Minification Tool",
+  "keywords": [
+    "font",
+    "minify",
+    "compress",
+    "webfont",
+    "css",
+    "html5"
+  ],
+  "author": {
+    "name": "SYSLAB: scientihark",
+    "email": "mgbbs.mobile@gmail.com",
+    "url": "http://www.syslab.us/"
+  },
+  "main": "cfmin.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sys-Lab/cfmin.git"
+  },
+  "bugs": {
+    "email": "mgbbs.mobile@gmail.com",
+    "url": "https://github.com/Sys-Lab/cfmin/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "cli-color": "0.2.2",
+    "optimist": "0.6.0"
+  },
+  "licence": "MIT",
+  "readme": "# SYSLIB Common Font Minification Tool.\nBuild 2013101701.\n\nThis is a tool to compress font and gen webfont.\nIt can convert TTF/OTF/SVG/WOFF/EOT.... to TTF/SVG/WOFF/EOT and gen webfont css,then pack with zip.\n\nNow only windows are supported.\nI'm working on the dependencies' compile script.\n\njust head to test dir and have fun.\n\n#Useage\n\nnode cfmin.js [opitions] -f [file] [-n [name]] -m [map]\n\n        --no_zip                        do not pack\n        --no_css                        do not gen css\n        --no_ttf                        do not gen ttf\n        --no_svg                        do not gen svg\n        --no_eot                        do not eot\n        --no_woff                       do not gen woff",
+  "readmeFilename": "README.md"
+}

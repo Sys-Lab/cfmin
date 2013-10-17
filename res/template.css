@@ -1,0 +1,5 @@
+﻿@font-face {
+	font-family: '%WEBF_NAME%';
+	src: url('%WEBF_NAME%.eot');
+	src: url(%WEBF_NAME%.woff) format('woff'),url(%WEBF_NAME%.ttf) format('truetype'),url(%WEBF_NAME%.svg#%WEBF_NAME%) format("svg"),url('%WEBF_NAME%.eot?#iefix') format('embedded-opentype');
+}
